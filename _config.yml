@@ -1,0 +1,4 @@
+collections:
+  quotes:
+  projects:
+exclude: [docker-compose.yml, Makefile]
