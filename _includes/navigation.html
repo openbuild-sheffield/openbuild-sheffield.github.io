@@ -1,0 +1,19 @@
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <a class="navbar-brand" href="/">{{ site.data.company.name }}</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav mr-auto">
+      {% for item in site.data.navigation %}
+      <li class="nav-item{% if page.url == item.link %} active{% endif %}">
+        <a class="nav-link" href="{{ item.link }}">{{ item.name }} {% if page.url == item.link %}<span class="sr-only">(current)</span>{% endif %}</a>
+      </li>
+      {% endfor %}
+    </ul>
+    <a href="https://linkedin.com/in/dannylewissheffield/" class="btn btn-block btn-social btn-twitter  btn-outline-success" aria-label="Connect on linked in">
+      Connect on
+      <span class="fa fa-linkedin"></span>
+    </a>
+  </div>
+</nav>
