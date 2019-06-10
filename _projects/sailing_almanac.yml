@@ -1,0 +1,4 @@
+---
+name: Sailing Almanac
+markdown: "Developed a centralised server and desktop solution that enabled planning of routes around european waterways and seas.  The server enabled waypoints and tidal flows to be updated as well as pulling in localised weather information this was then all pushed down to the desktop software that enabled the user to plan their route and view relevant maps and data.  Delivered using Zend Framework, Open Data APIs and Adobe Air."
+---

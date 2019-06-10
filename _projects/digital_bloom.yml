@@ -1,0 +1,4 @@
+---
+name: Digital Bloom
+markdown: "Small project to showcase primary school children's 'digital paintings', each child created and tagged a digital flower that was planted in a searchable meadow.  The flowers were positioned randomly within a defined area and shown with perspective, the flowers were animated using modern standards and when clicked on would grow and reveal details such a name, title, description and tags.  Delivered using a customised version of the Openbuild PHP API, MySQL, HTML5, CSS3, jQuery and jQuery Templates."
+---

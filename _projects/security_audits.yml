@@ -1,0 +1,4 @@
+---
+name: Security Audits
+markdown: "Using automated tools such as nmap and Websecurify for various companies I've identified and resolved a number of issues on the first pass, I then like to get down into the code and servers and check various things manually, common mistakes include poor validation and sanitisation of variables within code, not encrypting sensitive details within databases, allowing directory listings, allowing connections from all IP addresses, poor username and password policies.  All can be resolved but it's best to get these things sorted sooner rather than later, unfortunately there are some mistakes that you can only make once and it's best to be caught and embarrassed by a white hat than a nefarious hacker."
+---

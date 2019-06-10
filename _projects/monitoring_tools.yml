@@ -1,0 +1,4 @@
+---
+name: Monitoring Tools
+markdown: "Created a simple tool that checked if specific websites were available and serving PHP content, if business rules including response time were not meet than a alert was triggered.  To achieve the results a specific image was uploaded to each of the servers along with a PHP script which read the image and displayed it, a monitoring script then connected to the read script and checked the response times and hash of the file, if the hash did not match or the response time was to large, as well as additional rules, then an alert was raised, all test results were stored in a database that reports on stats for the last hour, month and year giving a valuable overview of the platforms performance.  We've also installed and configured various open-source tools over the years."
+---

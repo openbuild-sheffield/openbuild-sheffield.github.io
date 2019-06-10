@@ -1,0 +1,4 @@
+---
+name: Data Migration - Netsuite and MySQL to Mongo
+markdown: "Migrated a Netsuite CRM datastore including all files and combined it with local MySQL data then distilled it all to a Mongo store. This saved the company tens of thousands of pounds per year."
+---

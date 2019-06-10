@@ -1,0 +1,4 @@
+---
+name: Modern Baccalaureate
+markdown: "Web application that allowed students and teachers to enter a list of qualifications and then convert the awards into a Modern Baccalaureate equivalent.  Delivered using Symfony2 components, MySQL and Nginx."
+---
